@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-image: url('../image/gg.jpeg');
     background-repeat: no-repeat;
@@ -130,4 +131,138 @@ body {
     .col-s-12 {
       float: right; /* Float the col-3 content to the right */
     }
+=======
+body {
+    background-image: url('../image/gg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    text-align: center;
+    margin-bottom: 7px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu li:hover {
+    background-color: #555;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  
+  .col-3.menu {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+  }
+  
+  .col-6 .middle {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+  }
+  
+  .education-details img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .aside {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    color: black; 
+    font-size: 14px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    clear: both;
+  }
+  
+  .con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .con p {
+    margin: 0;
+  
+  .con p:first-child::before {
+    content: "\00a9"; /* Adds the copyright symbol */
+    padding-right: 5px;
+    font-size: 16px;
+  
+  @media only screen and (min-width: 768px) {
+    .col-s-12 {
+      float: right; /* Float the col-3 content to the right */
+    }
+>>>>>>> ce2a69d4447ebd1a870209e78afcd606e47ece5a
   }
